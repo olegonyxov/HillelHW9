@@ -7,7 +7,8 @@ for (i=1; i<=length; i++){
 }
 
 document.write(arr +'</br>');
-arr.sort();
-document.write(arr +'</br>');
-arr.splice(1,3);
-document.write(arr);
+document.write(arr.sort() +'</br>');
+// document.write(arr.splice(1,3)); интересное поведение
+arr.splice(1,3)
+document.write(arr)
+
